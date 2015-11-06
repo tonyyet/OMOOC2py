@@ -3,6 +3,11 @@
     "description": "Alice in pywonderland",
     "author": "Tony Yet <tony@tonyyet.com>",
     
-    "plugins": ["disqus"]
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "aliceinpywonderland"
+        }
+    }
 }
 
